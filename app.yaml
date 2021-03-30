@@ -1,0 +1,4 @@
+runtime: python39
+
+- url: /.*
+  script: auto
