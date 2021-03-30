@@ -1,8 +1,6 @@
 # Ridiculously Simple Google Cloud Storage on App Engine + Flask
 
-A ridiculously simple example of how to use Google Cloud storage on App Engine and Flask.
-
-No backend. A simple entry point and an HTML template for when you just want to start making stuff.
+A ridiculously simple example of how to use Google Cloud Storage with App Engine and Flask.
 
 ## Setup
 
@@ -14,13 +12,13 @@ Install:
 Install python libraries:
  	pip install
 
-Edit main.py to include your Cloud Storage bucket name. App Engine instances include a default bucket with the name <app id>.appspot.com.
+Edit main.py to include your Cloud Storage bucket name. Note that App Engine instances include a default bucket with the name <app id>.appspot.com.
 
 ## Local server server
 
 	python main.py
 
-Note that Cloud Storage is not simulated locally so there's no much point running this code locally.
+However, Cloud Storage is not simulated on a local dev server so there's no much point running this code locally.
 
 ## Deploying
 
