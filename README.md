@@ -1,6 +1,6 @@
 # Ridiculously Simple Google Cloud Storage on App Engine + Flask
 
-A ridiculously simple example of how to use Google Cloud storage on App Engine and Flask boilerplate.
+A ridiculously simple example of how to use Google Cloud storage on App Engine and Flask.
 
 No backend. A simple entry point and an HTML template for when you just want to start making stuff.
 
